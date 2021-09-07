@@ -1,0 +1,36 @@
+form
+{
+    margin-top:16px;
+}
+form input[type="text"],
+form input[type="email"]{
+    font-size:16px;
+    padding:8px;
+    width:100%;
+    margin-bottom: 16px;
+}
+form input[type="submit"]
+{
+    margin-top: 32px;
+    background-color:#000;
+    color:#fff;
+    border: none;
+    height: 36px;
+    width: 154px;
+}
+form input[type="submit"]:hover{
+    background-color: #ccc;
+    color: #434343;
+    cursor: pointer;
+}
+footer{
+    background-color: #000;
+    height: 82px;
+    color: #fff;
+    font-size:15px;
+    text-align: center;
+    line-height:82px;
+}
+footer a{
+    color: #fff;
+}
